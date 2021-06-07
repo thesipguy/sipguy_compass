@@ -23,7 +23,7 @@ public class SwiftSipguyCompassPlugin: NSObject, FlutterPlugin, FlutterStreamHan
 
 
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterEventChannel.init(name: "hemanthraj/flutter_compass", binaryMessenger: registrar.messenger())
+    let channel = FlutterEventChannel.init(name: "sipguy_compass/compass", binaryMessenger: registrar.messenger())
     _ = SwiftSipguyCompassPlugin(channel: channel);
   }
 
