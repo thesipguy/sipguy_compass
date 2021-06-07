@@ -3,6 +3,6 @@
 
 @implementation SipguyCompassPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterCompassPlugin registerWithRegistrar:registrar];
+  [SwiftSipguyCompassPlugin registerWithRegistrar:registrar];
 }
 @end
