@@ -29,6 +29,7 @@ public class SwiftSipguyCompassPlugin: NSObject, FlutterPlugin, FlutterStreamHan
 
     public func onListen(withArguments arguments: Any?,
                          eventSink: @escaping FlutterEventSink) -> FlutterError? {
+                             print("on listen fired");
         self.eventSink = eventSink;
         location.startUpdatingHeading();
         return nil;
